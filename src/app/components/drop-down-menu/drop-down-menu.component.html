@@ -1,0 +1,39 @@
+<app-dark-plane [enabled]="options_visibility"></app-dark-plane><!---z-index:51;--->
+
+<div #container1 class="container normal" [class.visible]="options_visibility" [style.width]="width">
+
+    <div class="option" (click)="changeOptionsVisibility(true, opt_selected)">
+        <i class="material-icons ic-left">{{icon}}</i>
+        <p>{{opt_selected.label}}</p>
+
+        <div class="ic_right">
+            <i class="material-icons" *ngIf="!options_visibility">keyboard_arrow_down</i>
+            <i class="material-icons" *ngIf="options_visibility">keyboard_arrow_up</i>
+        </div>
+        
+    </div>
+
+</div>
+
+<div #container2 class="container floating" [class.visible]="!options_visibility" [style.width]="width">
+
+    <div class="option" (click)="changeOptionsVisibility(false, this.opt_selected)">
+        <i *ngIf="icon != ''" class="material-icons ic-left">{{icon}}</i>
+        <p>{{opt_selected.label}}</p>
+        <div class="ic_right">
+            <i class="material-icons" *ngIf="!options_visibility">keyboard_arrow_down</i>
+            <i class="material-icons" *ngIf="options_visibility">keyboard_arrow_up</i>
+        </div>
+    </div>
+
+   
+
+    <div class="option_list_container" *ngFor="let opt of data">
+        <div class="option" (click)="changeOptionsVisibility(false, opt)">
+            <i *ngIf="icon != ''" class="material-icons ic-left">{{icon}}</i>
+            <p>{{opt.label}}</p>
+        </div>
+    </div>
+
+</div>
+

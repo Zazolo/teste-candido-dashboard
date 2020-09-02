@@ -2,3 +2,16 @@
 <side-menu></side-menu>
 <app-header></app-header>
 <!------------------------------------------------------------------------------->
+
+<!---Seprar por seção ou por páginas?-->
+
+<div class="app-logo-container"><!--App logo container's-->
+    <img src="../../../assets/Marca app.svg">
+</div>
+<!------------------------------------------------------------------------------->
+
+<!--Master selector (year select)-->
+<div class="main-select-container">
+    <app-drop-down-menu width="350px" icon="calendar_today" [data]="periods_available" (callback)="menuPeriodSelect($event)"></app-drop-down-menu>
+</div><!--Container-->
+

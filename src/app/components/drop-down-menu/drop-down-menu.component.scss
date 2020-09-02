@@ -1,0 +1,96 @@
+.container{
+    position: relative;
+    padding-right: 5px;
+    min-width: 150px;
+    border-radius: 1.3em;
+}
+
+.visible{
+    display: none;
+}
+
+.normal{
+    background-color: #F5F6F9;
+    color: #1951D1;
+    font-weight: 800;
+    font-size: 18px;
+    z-index: 50;
+}
+
+.floating{
+    z-index: 100;
+    background-color: white;
+    color: #1951D1;
+    font-weight: 800;
+    font-size: 18px;
+    z-index: 100!important;
+    padding-bottom: 15px;
+    .option{
+        border-bottom: 1px #F0F2F7 solid
+    }
+}
+
+.option_list_container{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.option{
+    padding-top: 12px;
+    padding-bottom: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15px;
+    //background-color: yellowgreen;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    .ic-left{
+        margin-right: 8px;
+        flex: 0;
+        left: 0;
+        font-size: 0.9em;
+        margin-top: .5px;
+    }
+
+    p{
+        font-family: "Roboto", "Segoe UI";
+        font-size: 0.8em;
+        margin: 0;
+    }
+
+    .ic_right{
+        position: absolute;
+        float: right;
+        right: 15px;
+        color: #1951D1;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    height:50%;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 50em;
+  }
+  
+  ::-webkit-scrollbar-corner{
+      height:1px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #gray; 
+  }

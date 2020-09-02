@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-icon2">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="icon2" clip-path="url(#clip-icon2)">
+    <path id="Report_ícones_-_Download_Gratuito_em_PNG_e_SVG-14" data-name="Report ícones - Download Gratuito em PNG e SVG-14" d="M8.019,2A4.031,4.031,0,0,0,4,6.019V38.174a4.031,4.031,0,0,0,4.019,4.019H21.451a13.989,13.989,0,0,1,14.7-19.936V15.722a4.021,4.021,0,0,0-1.178-2.842l-9.7-9.7A4.021,4.021,0,0,0,22.432,2ZM22.087,5.015,33.14,16.068H22.087Zm12.058,21.1A10.048,10.048,0,1,0,44.193,36.164,10.079,10.079,0,0,0,34.145,26.116Zm0,4.019v6.029h6.029a6.029,6.029,0,1,1-6.029-6.029Z" transform="translate(14.903 13.895)" fill="#ccd1e0"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-icon5">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="icon5" clip-path="url(#clip-icon5)">
+    <g id="Grupo_5602" data-name="Grupo 5602" transform="translate(19.109 23.42)">
+      <g id="Grupo_5511" data-name="Grupo 5511">
+        <g id="Icon_cash" transform="translate(8.347)">
+          <g id="Icon_cash-2" data-name="Icon_cash">
+            <path id="Path" d="M0,2.783A2.782,2.782,0,0,1,2.783,0H22.26a2.782,2.782,0,0,1,2.782,2.783V5.565H19.478a4.174,4.174,0,1,0,0,8.348h5.565v2.782a2.782,2.782,0,0,1-2.782,2.783H2.783A2.782,2.782,0,0,1,0,16.695Z" fill="#c12d54"/>
+            <path id="Shape" d="M8.572,6H2.857A2.934,2.934,0,0,1,0,3,2.934,2.934,0,0,1,2.857,0H8.572A1.467,1.467,0,0,1,10,1.5v3A1.467,1.467,0,0,1,8.572,6ZM2.857,1.5A1.467,1.467,0,0,0,1.428,3,1.467,1.467,0,0,0,2.857,4.5,1.467,1.467,0,0,0,4.285,3,1.467,1.467,0,0,0,2.857,1.5Z" transform="translate(16.543 6.58)" fill="#c12d54"/>
+          </g>
+        </g>
+        <g id="Elipse_1571" data-name="Elipse 1571" transform="translate(-0.109 5.58)" fill="#c12d54" stroke="#fff" stroke-width="1">
+          <circle cx="10" cy="10" r="10" stroke="none"/>
+          <circle cx="10" cy="10" r="9.5" fill="none"/>
+        </g>
+        <rect id="Retângulo_20225" data-name="Retângulo 20225" width="9.382" height="2.2" transform="translate(7.198 11.209) rotate(45)" fill="#fff"/>
+      </g>
+      <rect id="Retângulo_20226" data-name="Retângulo 20226" width="9.382" height="2.2" transform="translate(13.831 12.766) rotate(135)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

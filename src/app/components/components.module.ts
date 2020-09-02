@@ -5,11 +5,13 @@ import { HeaderComponent } from './header/header.component';
 
 ///pages always in the end
 import { MainComponent } from '../screens/main/main.component';
+import { DarkPlaneComponent } from './dark-plane/dark-plane.component';
+import { DropDownMenuComponent } from './drop-down-menu/drop-down-menu.component';
 
 
 
 @NgModule({
-  declarations: [SideMenuComponent, HeaderComponent, MainComponent],
+  declarations: [SideMenuComponent, HeaderComponent, MainComponent, DarkPlaneComponent, DropDownMenuComponent],
   exports:[SideMenuComponent, HeaderComponent, MainComponent],
   entryComponents:[SideMenuComponent, HeaderComponent, MainComponent],
   

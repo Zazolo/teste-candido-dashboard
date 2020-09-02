@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_20194" data-name="Retângulo 20194" width="42" height="42" transform="translate(0.496 -0.001)" fill="#f2fbf9"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_19150" data-name="Retângulo 19150" width="38" height="38" rx="19" transform="translate(0.496 0)" fill="#1951d1"/>
+    </clipPath>
+    <clipPath id="clip-icon1">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="icon1" clip-path="url(#clip-icon1)">
+    <g id="Prancheta_2" data-name="Prancheta – 2" transform="translate(14.504 16)" clip-path="url(#clip-path)">
+      <path id="Retângulo_19149" data-name="Retângulo 19149" d="M19.093,0A19.093,19.093,0,1,1,0,19.093,19.093,19.093,0,0,1,19.093,0Z" transform="translate(1.28 1.094)" fill="#dfe8fc"/>
+      <g id="Grupo_de_máscara_418" data-name="Grupo de máscara 418" transform="translate(1 1.001)" clip-path="url(#clip-path-2)">
+        <path id="_ionicons_svg_md-person" d="M77.091,77.09a6.546,6.546,0,1,0-6.546-6.546A6.546,6.546,0,0,0,77.091,77.09Zm0,3.273C72.755,80.363,64,82.573,64,86.909v8.734H90.183V86.909C90.183,82.573,81.428,80.363,77.091,80.363Z" transform="translate(-57.069 -56.056)" fill="#1951d1"/>
+      </g>
+    </g>
+  </g>
+</svg>
