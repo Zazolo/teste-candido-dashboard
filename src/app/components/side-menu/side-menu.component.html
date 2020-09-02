@@ -1,1 +1,10 @@
-<p>side-menu works!</p>
+<div class="container" [class.active]="active"> <!--fixed container-->
+    <button (click)="switchActiveStatus()"><i class="material-icons">menu</i></button>
+    <ul class="ul-side-menu">
+        <li>
+            <p>
+                <i class="material-icons">home</i> <span>Gestão de polos</span>
+            </p>
+        </li>
+    </ul>
+</div>
