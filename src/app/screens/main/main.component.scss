@@ -2,16 +2,74 @@
 .app-logo-container{
     width: 100%;
     text-align-last: center;
-    margin-top: 6.5%;
-
+    margin-top: 35px;
+    margin-bottom: 5px;
     img{
-        width: 425px;
+        width: 400px;
     }
 }
 
 .main-select-container{
+    position: absolute;
     width: 100%;
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+
+    
+    .lbl-main-select{
+        width: 420px;
+        text-align: left;
+        color: #516A84;
+        font-size: 1.1em;
+        font-family: "Basis Medium", "Segoe UI";
+        margin: 13px;
+        margin-left: 58px;
+    }
+
+    
+}
+
+.radio-container{
+    margin-top: 100px;
+    text-align: center;
+
+    .super-radio-buttons-container{
+        position: static;
+        padding: 1em;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .search-button-container{
+        padding-top: 5em;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+app-super-radio-buttons{
+    margin-top: 35px;
+}
+
+
+
+.page-container{
+    z-index: 0;
+    margin:0;
+    position: relative;
+    min-height: calc(100vh - 80px);//screen minus header height;
+    background-color: white;
+}
+
+.non-first-page{
+    z-index: 0;
+    background-color: #F5F7FA;
+    min-height: 100vh;
 }

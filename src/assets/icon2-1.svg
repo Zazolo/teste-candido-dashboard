@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="icon2.svg"
+   sodipodi:docname="icon2-1.svg"
    id="svg9"
    version="1.1"
    viewBox="0 0 72 72"
@@ -22,21 +22,22 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
      inkscape:current-layer="icon2"
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
      inkscape:cy="36"
      inkscape:cx="36"
      inkscape:zoom="11.805556"
      showgrid="false"
      id="namedview11"
-     inkscape:window-height="781"
-     inkscape:window-width="1660"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -59,7 +60,7 @@
      clip-path="url(#clip-icon2)"
      id="icon2">
     <path
-       style="fill:#ccd1e0;fill-opacity:1"
+       style="fill:#1951d1;fill-opacity:1"
        fill="#000"
        transform="translate(14.903 13.895)"
        d="M8.019,2A4.031,4.031,0,0,0,4,6.019V38.174a4.031,4.031,0,0,0,4.019,4.019H21.451a13.989,13.989,0,0,1,14.7-19.936V15.722a4.021,4.021,0,0,0-1.178-2.842l-9.7-9.7A4.021,4.021,0,0,0,22.432,2ZM22.087,5.015,33.14,16.068H22.087Zm12.058,21.1A10.048,10.048,0,1,0,44.193,36.164,10.079,10.079,0,0,0,34.145,26.116Zm0,4.019v6.029h6.029a6.029,6.029,0,1,1-6.029-6.029Z"

@@ -7,11 +7,13 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from '../screens/main/main.component';
 import { DarkPlaneComponent } from './dark-plane/dark-plane.component';
 import { DropDownMenuComponent } from './drop-down-menu/drop-down-menu.component';
+import { SuperRadioButtonsComponent } from './super-radio-buttons/super-radio-buttons.component';
+import { ButtonComponent } from './button/button.component';
 
 
 
 @NgModule({
-  declarations: [SideMenuComponent, HeaderComponent, MainComponent, DarkPlaneComponent, DropDownMenuComponent],
+  declarations: [SideMenuComponent, HeaderComponent, MainComponent, DarkPlaneComponent, DropDownMenuComponent, SuperRadioButtonsComponent, ButtonComponent],
   exports:[SideMenuComponent, HeaderComponent, MainComponent],
   entryComponents:[SideMenuComponent, HeaderComponent, MainComponent],
   

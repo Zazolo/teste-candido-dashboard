@@ -1,0 +1,45 @@
+<div class="container">
+
+    <div class="item" [ngClass]="{'sel': selected != 1}" (click)="execute(1)"  >
+        <div class="radio-icon">
+            <img *ngIf="selected != 1" src="../../../assets/icon2.svg" >
+            <img *ngIf="selected == 1" src="../../../assets/icon2-1.svg" >
+        </div>
+        <div class="radio-element">
+            <img *ngIf="selected == 1" src="../../../assets/radio-full.svg">
+            <img *ngIf="selected != 1" src="../../../assets/radio-disabled.svg">
+        </div>
+        <div class="label-radio">
+            <label>Consulta por Captação</label>
+        </div>
+    </div>
+
+    <div class="item" (click)="execute(2)" [ngClass]="{'sel': selected != 2}">
+        <div class="radio-icon" >
+            <img *ngIf="selected != 2" src="../../../assets/icon3.svg" >
+            <img *ngIf="selected == 2" src="../../../assets/icon3-1.svg" >
+        </div>
+        <div class="radio-element">
+            <img *ngIf="selected == 2" src="../../../assets/radio-full.svg">
+            <img *ngIf="selected != 2" src="../../../assets/radio-disabled.svg">
+        </div>
+        <div class="label-radio">
+            <label>Consulta por Financeiro</label>
+        </div>
+    </div>
+
+    <div class="item" (click)="execute(3)"  [ngClass]="{'sel': selected != 3}">
+        <div class="radio-icon">
+            <img *ngIf="selected != 3" src="../../../assets/icon4.svg" >
+            <img *ngIf="selected == 3" src="../../../assets/icon4-1.svg" >
+        </div>
+        <div class="radio-element">
+            <img *ngIf="selected == 3" src="../../../assets/radio-full.svg">
+            <img *ngIf="selected != 3" src="../../../assets/radio-disabled.svg">
+        </div>
+        <div class="label-radio">
+            <label>Consulta por Acadêmico</label>
+        </div>
+    </div>
+    
+</div>

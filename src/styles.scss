@@ -1,7 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./assets/fonts/Roboto/Roboto-Bold.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Medium';
+    src: url('./assets/fonts/Basis/BasisGrotesquePro-Medium.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Bold';
+    src: url('./assets/fonts/Basis/BasisGrotesquePro-Bold.otf');
+    font-style: normal;
+}
+
+
 html, body{
     margin: 0;
-    height: 100%;
+    
+    min-width: 800px;
 }
 body { 
     margin: 0; 

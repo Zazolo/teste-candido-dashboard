@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon4-1.svg"
+   id="svg9"
+   version="1.1"
+   viewBox="0 0 72 72"
+   height="72"
+   width="72">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="icon4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="33.966423"
+     inkscape:cx="6.6692624"
+     inkscape:zoom="4.1738942"
+     showgrid="false"
+     id="namedview11"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="clip-icon4">
+      <rect
+         id="rect2"
+         height="72"
+         width="72" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#clip-icon4)"
+     id="icon4">
+    <path
+       style="fill:#1951d1;fill-opacity:1"
+       fill="#ccd1e0"
+       transform="translate(11.055 10.693)"
+       d="M23.307,4a6.556,6.556,0,1,0,6.556,6.556A6.556,6.556,0,0,0,23.307,4ZM11.014,8.917a5.736,5.736,0,1,0,5.1,8.313,9.773,9.773,0,0,1-2.587-7.711A5.679,5.679,0,0,0,11.014,8.917Zm24.585,0a5.679,5.679,0,0,0-2.513.6,9.875,9.875,0,0,1,.054,1.037A9.776,9.776,0,0,1,30.5,17.23a5.727,5.727,0,1,0,5.1-8.313ZM23.307,20.39a9.833,9.833,0,0,0-9.834,9.834V33.5h8.291A14.743,14.743,0,0,1,29.139,22.32,9.77,9.77,0,0,0,23.307,20.39ZM11.014,23.668A9.013,9.013,0,0,0,2,32.682V33.5h8.195V30.224a13,13,0,0,1,1.761-6.508A9.4,9.4,0,0,0,11.014,23.668Zm25.4,0A11.473,11.473,0,1,0,47.891,35.14,11.473,11.473,0,0,0,36.418,23.668Zm4.917,6.556a1.639,1.639,0,0,1,1.159,2.8l-6.556,6.556a1.638,1.638,0,0,1-2.318,0L30.343,36.3a1.639,1.639,0,0,1,2.318-2.318L34.779,36.1l5.4-5.4A1.633,1.633,0,0,1,41.335,30.224Z"
+       data-name="Academic ícones - Download Gratuito em PNG e SVG-14"
+       id="Academic_ícones_-_Download_Gratuito_em_PNG_e_SVG-14" />
+  </g>
+</svg>

@@ -4,14 +4,40 @@
 <!------------------------------------------------------------------------------->
 
 <!---Seprar por seção ou por páginas?-->
+<div class="page-container">
 
-<div class="app-logo-container"><!--App logo container's-->
-    <img src="../../../assets/Marca app.svg">
+
+    <div class="app-logo-container"><!--App logo container's-->
+        <img src="../../../assets/Marca app.svg">
+    </div>
+    <!------------------------------------------------------------------------------->
+    
+    <!--Master selector (year select)-->
+    <div class="main-select-container">
+        <label class="lbl-main-select">Escolha o período letivo</label>
+        <app-drop-down-menu width="420px" icon="calendar_today" [data]="periods_available" (callback)="menuPeriodSelect($event)"></app-drop-down-menu>
+        
+    
+    </div><!--Container-->
+    
+    <div class="radio-container">
+        <div class="super-radio-buttons-container">
+            <app-super-radio-buttons (callback)="queryTypeSelect($event)"></app-super-radio-buttons>
+        </div>
+        <div class="search-button-container">
+            <app-button width="80px" role="Buscar" (callback)="searchBasedOnQuery()"></app-button>
+            <!---icon_left="save_alt"-->
+        </div>
+    </div>
+
+
 </div>
-<!------------------------------------------------------------------------------->
 
-<!--Master selector (year select)-->
-<div class="main-select-container">
-    <app-drop-down-menu width="350px" icon="calendar_today" [data]="periods_available" (callback)="menuPeriodSelect($event)"></app-drop-down-menu>
-</div><!--Container-->
+
+<div class="page-container non-first-page">
+    teste
+</div>
+
+
+
 

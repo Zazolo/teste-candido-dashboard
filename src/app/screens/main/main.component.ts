@@ -16,7 +16,16 @@ export class MainComponent implements OnInit {
   }
 
   menuPeriodSelect(option:number){
-    console.log(option);
+    console.log("Período selecionado:", option);
   }
+
+  queryTypeSelect(type:number){
+    console.log("Consulta selecionada do tipo:", type);
+  }
+
+  searchBasedOnQuery(){
+    console.log("Clicou em Buscar");
+  }
+
 
 }

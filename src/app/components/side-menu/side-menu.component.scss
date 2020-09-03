@@ -1,5 +1,6 @@
 .container{
     //opacity: .2;
+    z-index: 45;
     left: 0;
     top: 0;
     width: 64px;
@@ -20,6 +21,7 @@
         text-decoration: none;
         display: inline-block;
         outline: none;
+        margin-bottom: 20px;
         i{
             font-size: 2em;
         }
@@ -47,13 +49,13 @@
 
         p{
             margin: 0;
-            width: 150px;
+            width: 300px;
             height: auto;
             line-height: 1pt;
             color: white;
             font-weight: 600;
-            font-size: .8em;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1em;
+            font-family: 'Roboto-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 0;
 
             span{
@@ -78,7 +80,7 @@
 }
 
 .active{
-    width: 300px;
+    width: 350px;
     p{
         span{
             opacity: 1!important;
@@ -87,4 +89,8 @@
             display: inline-flex!important;
         }
     }
+}
+
+.btnred{
+    color: #FF5389!important;
 }
