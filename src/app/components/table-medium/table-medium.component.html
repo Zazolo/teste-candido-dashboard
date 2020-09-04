@@ -1,0 +1,75 @@
+<div class="tblHeader">
+    <div class="labels">
+        <label class="type-search">{{role}}</label>
+        <label class="title">{{title}}</label>
+        <label class="quantity">{{data.length}} cursos</label>
+    </div>
+
+    <div class="buttons">
+        <app-month-filter callback="monthIDSelect($event)"></app-month-filter>
+        <app-search-input></app-search-input>
+        <app-button role="Exportar" type="lighter" icon_left="save_alt" (callback)="export()"></app-button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row header">
+        <div class="column">
+            <label>{{tc1}}</label>
+        </div>
+        <div class="column">
+            <label>{{tc2}}</label>
+        </div>
+        <div class="column">
+            <label>{{tc3}}</label>
+        </div>
+        <div class="column">
+            <label>{{tc4}}</label>
+        </div>
+    </div>
+    <div *ngFor="let r of data; index as i">
+        <div class="row" [class.row-selected]="rowsSelected.includes('row' + i)" [attr.id]="'row' + i" (click)="selectRow('row'+i)">
+            <div class="column">
+                <div class="course_caption">
+                    <div class="icon-container">
+                        <i class="material-icons icon">school</i>
+                    </div>
+                    <label>{{r.course_name}}</label>
+                </div>
+            </div>
+            <div class="column">
+                <div class="student_quantity">
+                    <label>{{r.student_quantity}} alunos</label>
+                </div>
+            </div>
+            <div class="column">
+                <div class="representation">
+                    <div class="icon-container">
+                        <i class="material-icons">check_circle</i>
+                    </div>
+                    
+                    <label>{{r.paid}}</label>
+                </div>
+            </div>
+            <div class="column">
+                <div class="period">
+                    <div class="icon-container">
+                        <i class="material-icons">swap_calls</i>
+                    </div>
+                    <label>{{r.passed_value}}</label>
+                </div>
+            </div>
+            
+            <div class="menu_container">
+                <div class="menu">
+                    <i class="material-icons menu-icon">more_vert</i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="tblFooter">
+    <app-table-paginator quantity="3" (callback)="paginator($event)"></app-table-paginator>
+</div>

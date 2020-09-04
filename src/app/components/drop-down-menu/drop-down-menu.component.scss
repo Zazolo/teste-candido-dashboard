@@ -3,6 +3,13 @@
     padding-right: 5px;
     min-width: 150px;
     border-radius: 1.3em;
+    max-height: 250px;
+    overflow-y: scroll;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
 }
 
 .visible{
@@ -11,10 +18,18 @@
 
 .normal{
     background-color: #F5F6F9;
-    color: #1951D1;
-    font-weight: 800;
-    font-size: 18px;
-    z-index: 50;
+    color: #1951D1!important;
+    font-weight: 600!important;
+    font-size: 18px!important;
+    z-index: 50!important;
+}
+
+.lighter{
+    background-color: #ffffff!important;
+    color: #1951D1!important;
+    font-weight: 600!important;
+    font-size: 18px!important;
+    z-index: 50!important;
 }
 
 .floating{
@@ -36,8 +51,8 @@
 }
 
 .option{
-    padding-top: 17px;
-    padding-bottom: 37px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     padding-left: 25px;
     padding-right: 25px;
     box-sizing: border-box;
@@ -92,5 +107,5 @@
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #gray; 
+    background: gray; 
   }

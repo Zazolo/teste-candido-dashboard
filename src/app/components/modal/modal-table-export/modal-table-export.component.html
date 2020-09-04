@@ -1,0 +1,27 @@
+<div class="modalHeader">
+    <div class="labels">
+        <label class="title">Exportar Arquivo</label>
+        <div class="year-container">
+            <i class="material-icons icon">calendar_today</i>
+            <label class="quantity">2020.1</label>
+        </div>
+        
+    </div>
+
+    <div class="buttons" (click)="close()">
+        <i class="material-icons icon">close</i>
+    </div>
+</div>
+
+<div class="modalContent">
+    <div class="quantity_selector">
+        <app-drop-down-menu width="150px"></app-drop-down-menu>
+    </div>
+    <div class="radio_selectors">
+        <app-super-radio-buttons-export (callback)="formatSelected($event)"></app-super-radio-buttons-export>
+    </div>
+    <div class="bottom_buttons">
+        <app-button role="Cancelar" type="outlined" icon_left="close"></app-button>
+        <app-button role="Baixar" type="normal" icon_left="save_alt"></app-button>
+    </div>
+</div>

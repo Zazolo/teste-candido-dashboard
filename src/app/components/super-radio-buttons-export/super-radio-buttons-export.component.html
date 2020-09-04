@@ -1,0 +1,31 @@
+<div class="container">
+
+    <div class="item" [ngClass]="{'sel': selected != 1}" (click)="execute(1)"  >
+        <div class="radio-icon">
+            <img *ngIf="selected != 1" src="../../../assets/icon7.svg" >
+            <img *ngIf="selected == 1" src="../../../assets/icon7-1.svg" >
+        </div>
+        <div class="radio-element">
+            <img *ngIf="selected == 1" src="../../../assets/radio-full.svg">
+            <img *ngIf="selected != 1" src="../../../assets/radio-disabled.svg">
+        </div>
+        <div class="label-radio">
+            <label>PDF</label>
+        </div>
+    </div>
+
+    <div class="item" (click)="execute(2)" [ngClass]="{'sel': selected != 2}">
+        <div class="radio-icon" >
+            <img *ngIf="selected != 2" src="../../../assets/icon6.svg" >
+            <img *ngIf="selected == 2" src="../../../assets/icon6-1.svg" >
+        </div>
+        <div class="radio-element">
+            <img *ngIf="selected == 2" src="../../../assets/radio-full.svg">
+            <img *ngIf="selected != 2" src="../../../assets/radio-disabled.svg">
+        </div>
+        <div class="label-radio">
+            <label>Microsoft Excel</label>
+        </div>
+    </div>
+    
+</div>

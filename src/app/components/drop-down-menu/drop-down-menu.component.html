@@ -1,6 +1,6 @@
-<app-dark-plane [enabled]="options_visibility"></app-dark-plane><!---z-index:51;--->
+<!---<app-dark-plane [enabled]="options_visibility"></app-dark-plane><!---z-index:51;--->
 
-<div #container1 class="container normal" [class.visible]="options_visibility" [style.width]="width">
+<div class="container" [class.lighter]="alwaysLighter" [class.normal]="!alwaysLighter" [class.visible]="options_visibility" [style.width]="width">
 
     <div class="option" (click)="changeOptionsVisibility(true, opt_selected)">
         <i class="material-icons ic-left">{{icon}}</i>
@@ -15,7 +15,7 @@
 
 </div>
 
-<div #container2 class="container floating" [class.visible]="!options_visibility" [style.width]="width">
+<div class="container floating" [class.visible]="!options_visibility" [style.width]="width">
 
     <div class="option" (click)="changeOptionsVisibility(false, this.opt_selected)">
         <i *ngIf="icon != ''" class="material-icons ic-left">{{icon}}</i>

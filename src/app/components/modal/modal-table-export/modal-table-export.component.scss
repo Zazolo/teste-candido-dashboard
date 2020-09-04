@@ -1,0 +1,78 @@
+.modalHeader{
+    width: 100%;
+    height: auto;
+    .labels{
+        float: left;
+        font-family: 'Basis Medium', sans-serif;
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+    
+        .title{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: 'Basis Bold', sans-serif;
+            font-size: 20px;
+            color: #112438;
+        }
+    
+        .year-container{
+            display: flex;
+            color: #1951D1;
+            flex-direction: row;
+            .icon{
+                margin-right: 5px;
+            }
+        }
+        .quantity{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 15px;
+            color: #1951D1;
+           
+        }
+    }
+    
+    .buttons{
+        //position: absolute;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        margin-top: 23px;
+        app-search-input{
+            margin-right: 15px;
+        }
+        //background-color: black;
+    }
+}
+
+.quantity_selector{
+    position: absolute;
+    margin-top: 15px;
+}
+
+.radio_selectors{
+    padding-top: 90px;
+    margin-bottom: 50px;
+}
+
+.bottom_buttons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    //background-color: brown;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    
+    //transform: translate(-50%);
+}
+
+.modalContent{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    //background-color: cadetblue;
+}

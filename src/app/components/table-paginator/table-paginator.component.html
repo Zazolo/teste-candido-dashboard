@@ -1,0 +1,11 @@
+<div class="container">
+    <span class="arrow left" (click)="goBack()">
+        <i class="material-icons">keyboard_arrow_left</i>
+    </span>
+    <div class="dot-container" *ngFor="qt of pages; index as i">
+        <span class="dot" [class.active]="i == active">{{i+1}}</span>
+    </div>
+    <span class="arrow right" (click)="goAhead()">
+        <i class="material-icons">keyboard_arrow_right</i>
+    </span>
+</div>

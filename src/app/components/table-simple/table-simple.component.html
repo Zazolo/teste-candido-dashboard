@@ -1,0 +1,73 @@
+<div class="tblHeader">
+    <div class="labels">
+        <label class="type-search">Consulta por captação</label>
+        <label class="title">Quantitativo de matriculados por curso</label>
+        <label class="quantity">23 cursos</label>
+    </div>
+
+    <div class="buttons">
+        <app-search-input></app-search-input>
+        <app-button role="Exportar" type="lighter" icon_left="save_alt" (callback)="export()"></app-button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row header">
+        <div class="column">
+            <label>CURSO</label>
+        </div>
+        <div class="column">
+            <label>ALUNOS</label>
+        </div>
+        <div class="column">
+            <label>PERIODO LETIVO</label>
+        </div>
+        <div class="column">
+            <label>REPRESENTACAO DO TOTAL</label>
+        </div>
+    </div>
+    <div *ngFor="let r of data; index as i">
+        <div class="row">
+            <div class="column">
+                <div class="course_caption">
+                    <div class="icon-container">
+                        <i class="material-icons icon">school</i>
+                    </div>
+                    <label>{{r.course_name}}</label>
+                </div>
+            </div>
+            <div class="column">
+                <div class="student_quantity">
+                    <label>{{r.student_quantity}} alunos</label>
+                </div>
+            </div>
+            <div class="column">
+                <div class="period">
+                    <div class="icon-container">
+                        <i class="material-icons icon">calendar_today</i>
+                    </div>
+                    <label>{{r.period}}</label>
+                </div>
+            </div>
+            <div class="column">
+                <div class="representation">
+                    <div class="icon-container">
+                        <canvas width="32px" height="32px"  [attr.id]="'chart' + i"></canvas>
+                    </div>
+                    
+                    <label>{{r.total_representation}}%</label>
+                </div>
+            </div>
+            <div class="menu_container">
+                <div class="menu">
+                    <i class="material-icons menu-icon">more_vert</i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="tblFooter">
+    <app-table-paginator quantity="3" (callback)="paginator($event)"></app-table-paginator>
+</div>

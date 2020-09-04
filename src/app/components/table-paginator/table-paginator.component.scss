@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+    span{
+        text-align: center;
+        position: relative;
+        outline: none;
+        border-radius: 150%;
+        width: 24px!important;
+        height: 24px!important;
+        margin:5px;
+        
+        cursor: pointer;
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .arrow{
+        background-color: white;
+    }
+    .dot-container{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+    .dot{
+        margin: 5px;
+    }
+
+    .active{
+        background-color: #1951D1;
+        color: white;
+    }
+    
+}

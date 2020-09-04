@@ -1,13 +1,14 @@
-import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { DropMenuDataDto } from '../../model/drop-menu-data-dto'
 @Component({
   selector: 'app-drop-down-menu',
   templateUrl: './drop-down-menu.component.html',
   styleUrls: ['./drop-down-menu.component.scss']
 })
-export class DropDownMenuComponent implements OnInit {
+export class DropDownMenuComponent implements OnInit, AfterViewInit {
 
   @Input() width:string = '350px';
+  @Input() alwaysLighter:boolean = false;
   @Input() data:DropMenuDataDto[] = [];
   @Input() icon:string = '';
   @Output() callback = new EventEmitter<string|number>();
@@ -20,6 +21,17 @@ export class DropDownMenuComponent implements OnInit {
 
   ngOnInit(): void {
     this.changeOptionsVisibility(false, {value:0, label:'Default'});
+  }
+
+  ngAfterViewInit(){
+    if(this.data.length > 0){
+      this.changeOptionsVisibility(false, this.data[0])
+    } else {
+      setTimeout(()=>{
+        this.ngAfterViewInit()
+      }, 200)
+    }
+    console.log(this.alwaysLighter);
   }
 
   changeOptionsVisibility(v:boolean, obj:DropMenuDataDto){

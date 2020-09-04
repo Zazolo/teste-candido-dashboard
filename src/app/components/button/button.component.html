@@ -1,4 +1,4 @@
-<div class="btn" [style.width]="width" [ngClass]="type">
+<div class="btn" [style.width]="width" [ngClass]="type" (click)="execute()">
     <i *ngIf="icon_left != ''" class="material-icons app-icon">{{icon_left}}</i>
     <label *ngIf="role != ''">{{role}}</label>
     <i *ngIf="icon_right != ''" class="material-icons app-icon">{{icon_right}}</i>
