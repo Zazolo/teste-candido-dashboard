@@ -27,8 +27,49 @@
     }
 
     .user-info-container{
-        width: 300px;
-        background-color: lawngreen;
+        width: auto;
         float: right;
+    }
+}
+
+.heading{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    i{
+        font-size: 48px;
+        font-weight: 100;
+        position: relative;
+        top: 15px;
+        color: #D6D6D6;
+    }
+    img{
+        position: relative;
+        display: flex;
+        top: -12px;
+        left: 0px;
+        margin: 0;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .name-container{
+        position: relative;
+        left: -15px;
+        top: 24px;
+        display: flex;
+        flex-direction: column;
+
+        .name{
+            font-size: 16px;
+            font-family: 'Roboto-Bold';
+            line-height: 15px;
+        }
+
+        .place{
+            font-size: 13px;
+            font-family: 'Roboto';
+        }
     }
 }

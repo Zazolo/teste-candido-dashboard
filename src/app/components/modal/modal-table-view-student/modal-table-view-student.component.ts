@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-modal-table-view-student',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModalTableViewStudentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialogRef:MatDialogRef<ModalTableViewStudentComponent>) { }
 
   ngOnInit(): void {
   }
 
+  close(){
+    this.dialogRef.close();
+  }
+
+  aba:number = 0;
+
+
+  tabSelection(aba:number){
+    this.aba = aba;
+  }
 }

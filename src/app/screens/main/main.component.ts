@@ -3,6 +3,7 @@ import { DropMenuDataDto } from 'src/app/model/drop-menu-data-dto';
 import Chart from 'chart.js';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { ModalTableExportComponent } from 'src/app/components/modal/modal-table-export/modal-table-export.component';
+import { ModalTableViewStudentComponent } from 'src/app/components/modal/modal-table-view-student/modal-table-view-student.component';
 
 @Component({
   selector: 'app-main',
@@ -56,6 +57,15 @@ export class MainComponent implements OnInit {
     dialogConfig.height = "450px";
     dialogConfig.panelClass = "modalClass";
     const modalDialog = this.matDialog.open(ModalTableExportComponent, dialogConfig);
+  }
+  seeMoreStudentModal(){
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.id = "modal-component-2";
+    dialogConfig.width = "500px";
+    dialogConfig.height = "400px";
+    dialogConfig.panelClass = "modalClass";
+    const modalDialog = this.matDialog.open(ModalTableViewStudentComponent, dialogConfig);
   }
 
   

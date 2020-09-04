@@ -8,6 +8,7 @@ import { ComponentsModule } from './components/components.module';
 import { MainComponent } from './screens/main/main.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog' 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -15,8 +16,8 @@ import { MatDialogModule } from '@angular/material/dialog'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ComponentsModule,
     MatDialogModule,
+    ComponentsModule,
     RouterModule.forRoot([
       { path: '**', component: MainComponent }
     ]),

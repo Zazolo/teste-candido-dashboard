@@ -1,25 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
-  <defs>
-    <clipPath id="clip-icon5">
-      <rect width="72" height="72"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon5-2.svg"
+   id="svg21"
+   version="1.1"
+   viewBox="0 0 72 72"
+   height="72"
+   width="72">
+  <metadata
+     id="metadata25">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="Elipse_1571"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="40.59805"
+     inkscape:cx="36.319688"
+     inkscape:zoom="11.805556"
+     showgrid="false"
+     id="namedview23"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="clip-icon5">
+      <rect
+         id="rect2"
+         height="72"
+         width="72" />
     </clipPath>
   </defs>
-  <g id="icon5" clip-path="url(#clip-icon5)">
-    <g id="Grupo_5602" data-name="Grupo 5602" transform="translate(19.109 23.42)">
-      <g id="Grupo_5511" data-name="Grupo 5511">
-        <g id="Icon_cash" transform="translate(8.347)">
-          <g id="Icon_cash-2" data-name="Icon_cash">
-            <path id="Path" d="M0,2.783A2.782,2.782,0,0,1,2.783,0H22.26a2.782,2.782,0,0,1,2.782,2.783V5.565H19.478a4.174,4.174,0,1,0,0,8.348h5.565v2.782a2.782,2.782,0,0,1-2.782,2.783H2.783A2.782,2.782,0,0,1,0,16.695Z" fill="#c12d54"/>
-            <path id="Shape" d="M8.572,6H2.857A2.934,2.934,0,0,1,0,3,2.934,2.934,0,0,1,2.857,0H8.572A1.467,1.467,0,0,1,10,1.5v3A1.467,1.467,0,0,1,8.572,6ZM2.857,1.5A1.467,1.467,0,0,0,1.428,3,1.467,1.467,0,0,0,2.857,4.5,1.467,1.467,0,0,0,4.285,3,1.467,1.467,0,0,0,2.857,1.5Z" transform="translate(16.543 6.58)" fill="#c12d54"/>
+  <g
+     clip-path="url(#clip-icon5)"
+     id="icon5">
+    <g
+       transform="translate(19.109 23.42)"
+       data-name="Grupo 5602"
+       id="Grupo_5602">
+      <g
+         data-name="Grupo 5511"
+         id="Grupo_5511">
+        <g
+           style="fill:#dce0f2;fill-opacity:0.98823529"
+           transform="translate(8.347)"
+           id="Icon_cash">
+          <g
+             style="fill:#dce0f2;fill-opacity:0.98823529"
+             data-name="Icon_cash"
+             id="Icon_cash-2">
+            <path
+               style="fill:#dce0f2;fill-opacity:0.98823529"
+               fill="#c12d54"
+               d="M0,2.783A2.782,2.782,0,0,1,2.783,0H22.26a2.782,2.782,0,0,1,2.782,2.783V5.565H19.478a4.174,4.174,0,1,0,0,8.348h5.565v2.782a2.782,2.782,0,0,1-2.782,2.783H2.783A2.782,2.782,0,0,1,0,16.695Z"
+               id="Path" />
+            <path
+               style="fill:#dce0f2;fill-opacity:0.98823529"
+               fill="#c12d54"
+               transform="translate(16.543 6.58)"
+               d="M8.572,6H2.857A2.934,2.934,0,0,1,0,3,2.934,2.934,0,0,1,2.857,0H8.572A1.467,1.467,0,0,1,10,1.5v3A1.467,1.467,0,0,1,8.572,6ZM2.857,1.5A1.467,1.467,0,0,0,1.428,3,1.467,1.467,0,0,0,2.857,4.5,1.467,1.467,0,0,0,4.285,3,1.467,1.467,0,0,0,2.857,1.5Z"
+               id="Shape" />
           </g>
         </g>
-        <g id="Elipse_1571" data-name="Elipse 1571" transform="translate(-0.109 5.58)" fill="#c12d54" stroke="#fff" stroke-width="1">
-          <circle cx="10" cy="10" r="10" stroke="none"/>
-          <circle cx="10" cy="10" r="9.5" fill="none"/>
+        <g
+           stroke-width="1"
+           stroke="#fff"
+           fill="#c12d54"
+           transform="translate(-0.109 5.58)"
+           data-name="Elipse 1571"
+           id="Elipse_1571">
+          <circle
+             style="fill:#dce0f2;fill-opacity:1"
+             r="10"
+             id="circle11"
+             stroke="none"
+             cy="10"
+             cx="10" />
+          <circle
+             id="circle13"
+             fill="none"
+             r="9.5"
+             cy="10"
+             cx="10" />
         </g>
-        <rect id="Retângulo_20225" data-name="Retângulo 20225" width="9.382" height="2.2" transform="translate(7.198 11.209) rotate(45)" fill="#fff"/>
+        <rect
+           fill="#fff"
+           transform="translate(7.198 11.209) rotate(45)"
+           height="2.2"
+           width="9.382"
+           data-name="Retângulo 20225"
+           id="Retângulo_20225" />
       </g>
-      <rect id="Retângulo_20226" data-name="Retângulo 20226" width="9.382" height="2.2" transform="translate(13.831 12.766) rotate(135)" fill="#fff"/>
+      <rect
+         fill="#fff"
+         transform="translate(13.831 12.766) rotate(135)"
+         height="2.2"
+         width="9.382"
+         data-name="Retângulo 20226"
+         id="Retângulo_20226" />
     </g>
   </g>
 </svg>

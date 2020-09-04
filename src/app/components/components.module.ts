@@ -17,11 +17,14 @@ import { SuperRadioButtonsExportComponent } from './super-radio-buttons-export/s
 import { TablePaginatorComponent } from './table-paginator/table-paginator.component';
 import { TableMediumComponent } from './table-medium/table-medium.component';
 import { MonthFilterComponent } from './month-filter/month-filter.component';
+import { TableHardComponent } from './table-hard/table-hard.component';
+import { TableUltraHardComponent } from './table-ultra-hard/table-ultra-hard.component';
+import { TabComponent } from './tab/tab.component';
 
 
 
 @NgModule({
-  declarations: [SideMenuComponent, HeaderComponent, MainComponent, DarkPlaneComponent, DropDownMenuComponent, SuperRadioButtonsComponent, ButtonComponent, TableSimpleComponent, SearchInputComponent, ModalTableExportComponent, ModalTableViewStudentComponent, SuperRadioButtonsExportComponent, TablePaginatorComponent, TableMediumComponent, MonthFilterComponent],
+  declarations: [SideMenuComponent, HeaderComponent, MainComponent, DarkPlaneComponent, DropDownMenuComponent, SuperRadioButtonsComponent, ButtonComponent, TableSimpleComponent, SearchInputComponent, ModalTableExportComponent, ModalTableViewStudentComponent, SuperRadioButtonsExportComponent, TablePaginatorComponent, TableMediumComponent, MonthFilterComponent, TableHardComponent, TableUltraHardComponent, TabComponent],
   exports:[SideMenuComponent, HeaderComponent, MainComponent],
   entryComponents:[SideMenuComponent, HeaderComponent, MainComponent, ModalTableExportComponent, ModalTableViewStudentComponent],
   

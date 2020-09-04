@@ -1,1 +1,25 @@
-<p>modal-table-view-student works!</p>
+
+<div class="modalHeader">
+    <div class="buttons" (click)="close()">
+        <i class="material-icons icon">close</i>
+    </div>
+    <div class="heading">
+        <img src="../../../../assets/icon1.svg">
+        <div class="name-container">
+            <label class="name">Maria Luiza de Almeida <span class="matricula">#21636492</span></label>
+            <label class="course">Engenharia de Produção - 2º Período</label>
+        </div>
+        
+    </div>
+</div>
+<app-tab (callback)="tabSelection($event)"></app-tab>
+<div class="content">
+    <div class="aba" *ngIf="aba == 0">
+        contetn1
+    </div>
+    <div class="aba" *ngIf="aba == 1">
+        contetn2
+    </div>
+</div>
+
+  
