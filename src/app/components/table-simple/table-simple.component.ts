@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, Output, EventEmitter } from '@angular/core';
-import Chart from 'chart.js';
+import {Chart} from 'chart.js';
 
 @Component({
   selector: 'app-table-simple',
@@ -125,7 +125,7 @@ export class TableSimpleComponent implements OnInit, AfterViewInit {
 
 
   genDoghnutChart(ctx_name, percentage:number){
-    var ctx = document.getElementById(ctx_name);
+    var ctx:any = document.getElementById(ctx_name);
     var myPieChart = new Chart(ctx, {
       type: 'doughnut',
       data: {

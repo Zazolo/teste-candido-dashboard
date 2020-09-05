@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DropMenuDataDto } from 'src/app/model/drop-menu-data-dto';
-import Chart from 'chart.js';
+import {Chart} from 'chart.js';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { ModalTableExportComponent } from 'src/app/components/modal/modal-table-export/modal-table-export.component';
 import { ModalTableViewStudentComponent } from 'src/app/components/modal/modal-table-view-student/modal-table-view-student.component';

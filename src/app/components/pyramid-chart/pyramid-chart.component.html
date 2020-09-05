@@ -1,0 +1,38 @@
+<div class="tblHeader">
+    <div class="labels">
+        <label class="type-search">Consulta por captação</label>
+        <label class="title">Evolução de matrícula por semana</label>
+    </div>
+
+    <div class="buttons">
+        <app-button role="" type="lighter" icon_left="calendar_today" (callback)="export()"></app-button>
+        <app-button role="Exportar" type="lighter" icon_left="save_alt" (callback)="export()"></app-button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="heading">
+        <div class="title">
+            Gráfico de evolução semanal
+        </div>
+        <div class="sub_title">
+            Período letivo de 2020.1
+        </div>
+    </div>
+    <div class="btn_container" >
+        <i class="material-icons" [matMenuTriggerFor]="menu" >more_vert</i>
+    </div>
+    <canvas id="chartContextHTML" width="1000" height="300"></canvas>
+</div>
+
+
+<mat-menu #menu="matMenu">
+    <button mat-menu-item>
+        <mat-icon>mail_outline</mat-icon>
+        <span>Enviar para Todos</span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon>mail_outline</mat-icon>
+        <span>Enviar para email específico</span>
+    </button>
+</mat-menu>
